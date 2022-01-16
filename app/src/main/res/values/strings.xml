@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tapping Game</string>
+    <string name="timer">60</string>
+    <string name="value">200</string>
+    <dimen name="size">150sp</dimen>
+    <string name="winTitle">Congratulations</string>
+    <string name="loseTitle">Time is up!</string>
+    <string name="msg">Do you want to retry?</string>
+    <string name="start">Start</string>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:state_pressed="true" ><shape android:shape="rectangle">
+    <gradient android:angle="225" android:startColor="@color/teal_200" android:centerColor="@color/peach" android:endColor="@color/purple_200"/>
+    <size android:height="@dimen/size" android:width="@dimen/size"/>
+    <stroke android:color="@color/peachDark" android:width="2sp"/>
+    <corners android:radius="1000000sp"/>
+</shape> </item>
+    <item android:state_focused="true" >
+        <shape android:shape="rectangle">
+        <!--     <corners android:radius="10sp"/>-->
+        <size android:height="@dimen/size" android:width="@dimen/size"/>
+        <corners android:radius="1000000sp"/>
+        <stroke android:color="@color/peachDark" android:width="2sp"/>
+        <gradient android:angle="225" android:startColor="@color/peachDark" android:type="linear" android:centerColor="@color/peach"  android:endColor="@color/peachDarkest"/>
+    </shape></item>
+    <item ><shape android:shape="rectangle">
+       <size android:height="@dimen/size" android:width="@dimen/size"/>
+        <corners android:radius="1000000sp"/>
+        <stroke android:color="@color/peachDark" android:width="2sp"/>
+        <gradient android:angle="225" android:startColor="@color/peachDark" android:type="linear" android:centerColor="@color/peach"  android:endColor="@color/peachDarkest"/>
+    </shape></item>
+
+</selector>
